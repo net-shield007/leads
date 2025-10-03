@@ -516,7 +516,6 @@ export default function ContactTable() {
                         <option value="hot">Hot</option>
                       </select>
                     </div>
-
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
                         Preferred Contact
@@ -532,7 +531,6 @@ export default function ContactTable() {
                         </span>
                       </div>
                     </div>
-
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
                         Newsletter
@@ -553,7 +551,7 @@ export default function ContactTable() {
                         </span>
                       </div>
                     </div>
-
+                    // Optional PDF Attachment
                     {selectedLead?.pdfFile && (
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -567,7 +565,6 @@ export default function ContactTable() {
                         </div>
                       </div>
                     )}
-
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
                         Received
