@@ -551,7 +551,7 @@ export default function ContactTable() {
                         </span>
                       </div>
                     </div>
-                    // Optional PDF Attachment
+                    {/* // Optional PDF Attachment */}
                     {selectedLead?.pdfFile && (
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
